@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4186E6AC53FF85DB699F1A /* Pods_QR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93344D0363E2663DC577E20 /* Pods_QR.framework */; };
+		605C2D471C104F6800070447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605C2D461C104F6800070447 /* AppDelegate.swift */; };
+		605C2D491C104F6800070447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605C2D481C104F6800070447 /* ViewController.swift */; };
+		605C2D4C1C104F6800070447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605C2D4A1C104F6800070447 /* Main.storyboard */; };
+		605C2D4E1C104F6800070447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605C2D4D1C104F6800070447 /* Assets.xcassets */; };
+		605C2D511C104F6800070447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605C2D4F1C104F6800070447 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		605C2D431C104F6800070447 /* QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		605C2D461C104F6800070447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		605C2D481C104F6800070447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		605C2D4B1C104F6800070447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		605C2D4D1C104F6800070447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		605C2D501C104F6800070447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		605C2D521C104F6800070447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605C2D581C104F8000070447 /* QR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QR-Bridging-Header.h"; sourceTree = "<group>"; };
+		AA3068F57A367DAAE57E470A /* Pods-QR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR.release.xcconfig"; path = "Pods/Target Support Files/Pods-QR/Pods-QR.release.xcconfig"; sourceTree = "<group>"; };
+		C93344D0363E2663DC577E20 /* Pods_QR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C6C39071888EEDBB193C91 /* Pods-QR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QR/Pods-QR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605C2D401C104F6800070447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4186E6AC53FF85DB699F1A /* Pods_QR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		605C2D3A1C104F6800070447 = {
+			isa = PBXGroup;
+			children = (
+				605C2D451C104F6800070447 /* QR */,
+				605C2D441C104F6800070447 /* Products */,
+				CD13800F63262212BD37D2B0 /* Pods */,
+				B601D4D725F25E5E87067777 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		605C2D441C104F6800070447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				605C2D431C104F6800070447 /* QR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		605C2D451C104F6800070447 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				605C2D461C104F6800070447 /* AppDelegate.swift */,
+				605C2D481C104F6800070447 /* ViewController.swift */,
+				605C2D4A1C104F6800070447 /* Main.storyboard */,
+				605C2D4D1C104F6800070447 /* Assets.xcassets */,
+				605C2D4F1C104F6800070447 /* LaunchScreen.storyboard */,
+				605C2D521C104F6800070447 /* Info.plist */,
+				605C2D581C104F8000070447 /* QR-Bridging-Header.h */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		B601D4D725F25E5E87067777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93344D0363E2663DC577E20 /* Pods_QR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD13800F63262212BD37D2B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C6C39071888EEDBB193C91 /* Pods-QR.debug.xcconfig */,
+				AA3068F57A367DAAE57E470A /* Pods-QR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		605C2D421C104F6800070447 /* QR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 605C2D551C104F6800070447 /* Build configuration list for PBXNativeTarget "QR" */;
+			buildPhases = (
+				5A0D7FB54FEA216840277B28 /* Check Pods Manifest.lock */,
+				605C2D3F1C104F6800070447 /* Sources */,
+				605C2D401C104F6800070447 /* Frameworks */,
+				605C2D411C104F6800070447 /* Resources */,
+				3EF0D2230B50D6927D4F3982 /* Embed Pods Frameworks */,
+				5FF4C6E5291712E4DF16144C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QR;
+			productName = QR;
+			productReference = 605C2D431C104F6800070447 /* QR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		605C2D3B1C104F6800070447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Cuong Ta";
+				TargetAttributes = {
+					605C2D421C104F6800070447 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 605C2D3E1C104F6800070447 /* Build configuration list for PBXProject "QR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 605C2D3A1C104F6800070447;
+			productRefGroup = 605C2D441C104F6800070447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				605C2D421C104F6800070447 /* QR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		605C2D411C104F6800070447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605C2D511C104F6800070447 /* LaunchScreen.storyboard in Resources */,
+				605C2D4E1C104F6800070447 /* Assets.xcassets in Resources */,
+				605C2D4C1C104F6800070447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EF0D2230B50D6927D4F3982 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QR/Pods-QR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0D7FB54FEA216840277B28 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5FF4C6E5291712E4DF16144C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QR/Pods-QR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605C2D3F1C104F6800070447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605C2D491C104F6800070447 /* ViewController.swift in Sources */,
+				605C2D471C104F6800070447 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		605C2D4A1C104F6800070447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605C2D4B1C104F6800070447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		605C2D4F1C104F6800070447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				605C2D501C104F6800070447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		605C2D531C104F6800070447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		605C2D541C104F6800070447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		605C2D561C104F6800070447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C6C39071888EEDBB193C91 /* Pods-QR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cta.QR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QR/QR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		605C2D571C104F6800070447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3068F57A367DAAE57E470A /* Pods-QR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = QR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cta.QR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QR/QR-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		605C2D3E1C104F6800070447 /* Build configuration list for PBXProject "QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605C2D531C104F6800070447 /* Debug */,
+				605C2D541C104F6800070447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		605C2D551C104F6800070447 /* Build configuration list for PBXNativeTarget "QR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605C2D561C104F6800070447 /* Debug */,
+				605C2D571C104F6800070447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 605C2D3B1C104F6800070447 /* Project object */;
+}
