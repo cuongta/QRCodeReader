@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "QRCodeReader"
+  s.name         = "CTAQRCodeReader"
   s.version      = "0.0.1"
   s.summary      = "QRCodeReader"
   s.description  = <<-DESC
