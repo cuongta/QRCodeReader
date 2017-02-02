@@ -1,3 +1,6 @@
+### Status
+[![Build Status](https://travis-ci.org/cuongta/QRCodeReader.svg?branch=master)](https://travis-ci.org/cuongta/QRCodeReader)
+
 # QRCodeReaderSwift
 
 Simple Swift QR Code Reader
